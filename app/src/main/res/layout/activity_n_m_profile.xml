@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:viewportHeight="3316"
+    android:orientation="vertical"
+    tools:context=".NMProfileActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.9">
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/ic_loginscroll">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/preTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:paddingTop="48dp"
+                    android:text="Update Profile"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Name"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNMUpdateName"
+                    android:layout_width="match_parent"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Phone"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/etNMUpdatePhone"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Date Of Birth"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/etNMUpdateDob"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint=""
+                    android:inputType="date"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingLeft="30dp"
+                    android:text="Email"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNMUpdateEmail"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="textEmailAddress"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Gender (Female/Male/Other)"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/etNMUpdateGender"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Closest Ywca Location"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNMUpdateLocation"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Institute/Organisation"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/etNMUpdateInstitute"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preTv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Profession:"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNMUpdateProfession"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/preTv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="Interested in being a member(Yes/No/Maybe)"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNMUpdateInterest"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:ems="10"
+
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnNMUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/blue_gradient"
+            android:layout_marginTop="30dp"
+            android:text="Update"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+        <ProgressBar
+            android:id="@+id/NmProfilePb"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="124dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

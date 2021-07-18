@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_login"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/ic_loginscroll">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:text="Choose your Status"
+                android:textColor="#ffffff"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <RadioButton
+                    android:id="@+id/rbMember"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="4"
+                    android:buttonTint="#429DD2"
+                    android:checked="true"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="20sp"
+                    android:text="Member"
+                    android:textColor="#2f4f4f"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/rbStaff"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="4"
+                    android:buttonTint="#429DD2"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="20sp"
+                    android:text="Staff"
+                    android:textColor="#2f4f4f"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/rbNonMember"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="4"
+                    android:buttonTint="#429DD2"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="20sp"
+                    android:text="Non-Member"
+                    android:textColor="#2f4f4f"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/rbAdmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="4"
+                    android:buttonTint="#429DD2"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="20sp"
+                    android:text="Admin"
+                    android:textColor="#2f4f4f"
+                    android:textSize="25sp" />
+
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="70dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/opensans_bold"
+                android:text="Next"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

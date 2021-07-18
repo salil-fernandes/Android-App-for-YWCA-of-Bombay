@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    tools:showIn="navigation_view">-->
+
+    <!-- Add all the menu files to show in navigation -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:iconTint="#429DD2"
+            android:title="About Us"
+            android:itemTextAppearance="@font/opensans_semibold"
+            />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@android:drawable/ic_menu_month"
+            android:iconTint="#429DD2"
+            android:title="Events"
+            android:itemTextAppearance="@font/opensans_semibold"/>
+        <item
+            android:id="@+id/nav_initiatives"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:iconTint="#429DD2"
+            android:title="Initiatives"
+            android:itemTextAppearance="@font/opensans_semibold"/>
+        <item
+            android:id="@+id/nav_success_stories"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:iconTint="#429DD2"
+            android:title="Success Stories"
+            android:itemTextAppearance="@font/opensans_semibold"/>
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@android:drawable/ic_menu_call"
+            android:iconTint="#429DD2"
+            android:title="Contact Us"
+            android:itemTextAppearance="@font/opensans_semibold"/>
+
+        <item
+            android:id="@+id/nav_analytics"
+            android:icon="@android:drawable/ic_menu_share"
+            android:iconTint="#429DD2"
+            android:title="Analytics"
+            android:itemTextAppearance="@font/opensans_semibold"/>
+
+        <item
+            android:id="@+id/nav_admin_approval"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:iconTint="#429DD2"
+            android:title="Admin Approval"
+            android:itemTextAppearance="@font/opensans_semibold"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1031980934063",
+    "firebase_url": "https://ywca-c6734.firebaseio.com",
+    "project_id": "ywca-c6734",
+    "storage_bucket": "ywca-c6734.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031980934063:android:1b1812334002a9c132055a",
+        "android_client_info": {
+          "package_name": "com.sevatech.ywca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031980934063-t627d7kgvqg021bp3phun180olabg6a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sevatech.ywca",
+            "certificate_hash": "ed30fbcb409595c1509703e4828dd23d18db687f"
+          }
+        },
+        {
+          "client_id": "1031980934063-o1si16aqn8m8shnd3j17r8i0vr9ucuuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sevatech.ywca",
+            "certificate_hash": "83b0c694d39582546eac75665d4b0ff120418c5e"
+          }
+        },
+        {
+          "client_id": "1031980934063-6429mjlj99ulj01na3qcd1od0bg29nbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1D9lkLNBDZHaqyvA6y086ka3CxLPRu50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031980934063-6429mjlj99ulj01na3qcd1od0bg29nbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sevatech.ywca">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ywca_launcher"
+        android:label="YWCA of Bombay"
+        android:logo="@drawable/ywca"
+        android:roundIcon="@mipmap/ic_ywca_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".navigation.events.EventOTPActivity" />
+        <activity android:name=".NMProfileActivity" />
+        <activity android:name=".ProfileOtpActivity" />
+        <activity android:name=".PreNMProfileActivity" />
+        <activity android:name=".PreProfileActivity" />
+        <activity android:name=".navigation.initiatives.InitiativesFullScreenActivity" />
+        <activity android:name=".navigation.Admin_add_event" />
+        <activity android:name=".navigation.FullScreenActivity" />
+        <activity android:name=".navigation.events.EventRegister" />
+        <activity
+            android:name=".navigation.FragmentBaseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NewNonMemberActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NMOTPActivity" />
+        <activity android:name=".NMPhoneActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".Staff2Activity" />
+        <activity android:name=".Member2Activity" />
+        <activity android:name=".NMActivity" />
+        <activity android:name=".NonMemberActivity" />
+        <activity android:name=".StaffActivity" />
+        <activity android:name=".MemberActivity" />
+        <activity
+            android:name=".MainActivity"
+            tools:ignore="LockedOrientationActivity" />
+    </application>
+
+</manifest>

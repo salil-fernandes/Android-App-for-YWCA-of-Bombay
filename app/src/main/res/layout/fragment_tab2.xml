@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4f1ff"
+    tools:context=".navigation.contactUs.tab2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/hostels" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:text="@string/hello_blank_fragment2"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="13dp"
+            android:background="@drawable/rounded_edittext"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="#429DD2"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:text="@string/name_of_hostel1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autoLink="all"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#000"
+                android:textColorLink="#429DD2"
+                android:textSize="17sp"
+                android:text="@string/address4" />
+
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorLink="#0B2098"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="#429DD2"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:text="@string/name2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autoLink="all"
+                android:padding="2dp"
+                android:fontFamily="@font/opensans_regular"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorLink="#429DD2"
+                android:textSize="17sp"
+                android:text="@string/address5"/>
+            <TextView
+                android:id="@+id/tt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:textColorLink="#0B2098"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="#429DD2"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:text="@string/name3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autoLink="all"
+                android:padding="2dp"
+                android:fontFamily="@font/opensans_regular"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorLink="#429DD2"
+                android:textSize="17sp"
+                android:text="@string/address6" />
+
+            <TextView
+                android:id="@+id/tt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:textColorLink="#0B2098"
+                android:textSize="17sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_edittext"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="#429DD2"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:text="LADY WILLINGDON HOSTEL" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autoLink="all"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:fontFamily="@font/opensans_regular"
+                android:textColorLink="#429DD2"
+                android:textSize="17sp"
+                android:text="@string/address7" />
+
+            <TextView
+                android:id="@+id/tt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:textColorLink="#0B2098"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

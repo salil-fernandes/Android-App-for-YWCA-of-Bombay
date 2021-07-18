@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".NMActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9">
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/ic_loginscroll"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tvAssure"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:text="Sign Up"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_edittext"
+                    android:padding="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:ems="10"
+                    android:fontFamily="@font/opensans_regular"
+                    android:hint="Enter your phone Number"
+                    android:inputType="phone"/>
+
+                <TextView
+                    android:id="@+id/tvProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingLeft="30dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textSize="20sp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#2f4f4f"
+                    android:text="Profession" />
+
+                <EditText
+                    android:id="@+id/etProfession"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:background="@drawable/rounded_edittext"
+                    android:padding="10dp"
+                    android:paddingHorizontal="30dp"
+                    android:ems="10"
+                    android:layout_marginTop="10dp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tvBlank1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#708090"
+                    android:paddingTop="10dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:paddingHorizontal="30dp"
+                    android:text="(Leave it Blank if retired)" />
+
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:paddingHorizontal="30dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#2f4f4f"
+                    android:text="Closest YWCA location?" />
+
+
+                <Spinner
+                    android:id="@+id/spnLocation"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:scrollbarSize="60dp"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvInterest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textSize="20sp"
+                    android:paddingLeft="30dp"
+                    android:textColor="#2f4f4f"
+                    android:textStyle="bold"
+                    android:text="Interested in being a member?" />
+
+                <RadioGroup
+                    android:id="@+id/rgInterest"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/rbYes"
+                        android:buttonTint="#429DD2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:layout_marginHorizontal="30dp"
+                        android:checked="true"
+                        android:text="Yes"
+                        android:textColor="#708090" />
+
+                    <RadioButton
+                        android:id="@+id/rbNo"
+                        android:buttonTint="#429DD2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginHorizontal="30dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="No"
+                        android:textColor="#708090" />
+
+                    <RadioButton
+                        android:id="@+id/rbMaybe"
+                        android:buttonTint="#429DD2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginHorizontal="30dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Maybe"
+                        android:textColor="#708090" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/blue_gradient"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:text="Submit" />
+
+        <ProgressBar
+            android:id="@+id/nmPb"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:indeterminateTint="@color/darkblue"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
