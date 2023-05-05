@@ -1,5 +1,5 @@
 # YWCA
-This app was developed to be a kind of event booking type of app that would keep members and non-members up to date on different events that were being organised by the YWCA of Mumbai. The app has also been deployed on Google's Play Store.
+This app was developed to be a kind of event booking type of app that would keep members and non-members up to date on different events that were being organised by the YWCA of Mumbai. The app has also been deployed on Google's Play Store. After publication of this app, click rates were boosted by 133% and event registration jumped by 200%.
 
 Google Play Store Link - https://play.google.com/store/apps/details?id=com.sevatech.ywca
 
